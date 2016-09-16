@@ -1,0 +1,11 @@
+{
+    "name": "sasirad/mdb2",
+    "description": "copy of MDB2 pear database abstraction layer for use in IRAD applications",
+    "authors": [
+        {
+            "name": "J. Reuben Wetherbee",
+            "email": "wetherbe@sas.upenn.edu"
+        }
+    ],
+    "require": {}
+}
