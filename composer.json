@@ -1,6 +1,7 @@
 {
-    "name": "sasirad/mdb2",
-    "description": "copy of MDB2 pear database abstraction layer for use in IRAD applications",
+    "name": "sasc-irad/mdb2",
+    "description": "Copy of MDB2 database abstraction layer",
+    "license": "BSD",
     "authors": [
         {
             "name": "J. Reuben Wetherbee",
