@@ -8,5 +8,11 @@
             "email": "wetherbe@sas.upenn.edu"
         }
     ],
+    "autoload": {
+        "psr-0": {
+            "MDB2": "",
+            "MDB2_": "MDB2/"
+        }
+    }
     "require": {}
 }
