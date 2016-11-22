@@ -11,5 +11,13 @@
     "autoload": {
         "classmap": ["", "MDB2/", "MDB2/Driver"]
     },
-    "require": {}
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/sas-irad/pear-core"
+        }
+    ],
+    "require": {                                                                                                                
+        "sas-irad/pear-core":    "dev-IRAD"                                                                          
+    }   
 }
