@@ -52,7 +52,7 @@
  * @author      Lukas Smith <smith@pooteeweet.org>
  */
 
-require_once 'PEAR.php';
+//require_once 'PEAR.php';
 
 // {{{ Error constants
 
@@ -3471,7 +3471,7 @@ class MDB2_Driver_Common
      */
     public function &getStaticProperty($class, $var)
     {
-        $tmp =& $this->pear->getStaticProperty($class, $var);
+        $tmp = $this->pear->getStaticProperty($class, $var);
         return $tmp;
     }
 
